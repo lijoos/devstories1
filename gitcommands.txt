@@ -1,0 +1,18 @@
+
+git config --global user.email "lijo.ff@gmail.com"
+ git remote add origin git@github.com:darkoram/shpero_tracker.git
+ git add
+ git commit –am "Message Text"
+ 
+
+git push -u origin master
+git remote set-url origin git://new.url.here
+
+Heroku
+
+type heroku
+heroku login
+git init
+heroku create
+git add .
+git commit -am "first commit"
